@@ -4,10 +4,14 @@ body {
     padding-top: 1em;
     padding-bottom: 1em;
 }
+.attribution{
+    margin-top: 5px;
+}
 
 .grid-1{
     display: grid;
     align-self: start;
+    
     grid-template-columns: 40px 75px 75px 100px;
     grid-template-rows: auto auto auto auto;
     grid-column-start: 1;
@@ -24,10 +28,14 @@ body {
 }
 
 .mainComment-container {
-    margin-left: 3em;
-    margin-right: 3em;
+   
+    border-radius: 25px;
+    background-color: rgb(213, 213, 213);
+    align-content: flex-end;
+    margin-left: 9em;
     padding-top: 1em;
     padding-bottom: 1em;
+    margin-bottom: 4px;
 }
 
 .pic-container img{
@@ -43,10 +51,14 @@ body {
 }
 
 .subComment-container {
-    margin-left: 9em;
-    margin-right: 3.5em;
+    
+    border-radius: 25px;
+    background-color: rgb(236, 235, 235);
+    align-content: flex-end;
+    margin-left: 15em;
     padding-top: 1em;
     padding-bottom: 1em;
+    margin-bottom: 4px;
 }
 .topBox-container {
     grid-auto-flow: row;    
@@ -69,7 +81,7 @@ body {
     font-size: 75%;
 }
 
-/* .upVote-container{
-    margin-top: 35%;
+.upVote-container{
+    padding-left: 15px;
     
-} */
+}
