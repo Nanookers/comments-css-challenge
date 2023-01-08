@@ -1,18 +1,20 @@
 body {
-    margin-left: 3em;
-    margin-right: 3em;
+    margin-left: 15em;
+    margin-right: 15em;
     padding-top: 1em;
     padding-bottom: 1em;
 }
 
 .grid-1{
     display: grid;
-    grid-template-columns: 50px 75px 75px 100px;
+    align-self: start;
+    grid-template-columns: 40px 75px 75px 100px;
     grid-template-rows: auto auto auto auto;
     grid-column-start: 1;
     grid-column-end: 4;
     margin-bottom: 10px;
 }
+
 .grid-2{
     display: grid;
     grid-template-columns: 45px 80%;
@@ -27,9 +29,22 @@ body {
     padding-top: 1em;
     padding-bottom: 1em;
 }
+
+.pic-container img{
+    height: 55px;
+    width: auto;
+    margin-left: 10px;
+    
+}
+
+.replyName{
+    color: rgb(74, 73, 73);
+    font-style: italic;
+}
+
 .subComment-container {
     margin-left: 9em;
-    margin-right: 9em;
+    margin-right: 3.5em;
     padding-top: 1em;
     padding-bottom: 1em;
 }
@@ -39,7 +54,22 @@ body {
     grid-template-rows: 12px 12px 12px;
 }
 
-.userName-container, .time-container  {
-    margin-left: 20%;
-    margin-top: 40%;
+.userName-container {
+    font-size: large;
+    margin-top: 50%;
+    font-weight: bolder;
 }
+
+.time-container {
+    margin-left: 33%;
+    margin-top: 42.5%;
+    font-weight: lighter;
+    color: darkgrey;
+    font-size: medium;
+    font-size: 75%;
+}
+
+/* .upVote-container{
+    margin-top: 35%;
+    
+} */
