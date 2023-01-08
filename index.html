@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-
+  <link rel="stylesheet" href="./style.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <!-- Fonts from google -->
@@ -23,33 +23,90 @@
 <body>
 
   <!-- Comment #1 -->
-  12
-  <img src="./images/avatars/image-amyrobson.png" alt="profile" />
-  amyrobson 
-  1 month ago
-  Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.
+  <div class="mainComment-container">
+    <section class="grid-1">
+      <div class="upVote-container">
+        12
+      </div>
+    
+      <div class="pic-container">
+        <img src="./images/avatars/image-amyrobson.png" alt="profile" />
+      </div>
+    
 
+      <div class="userName-container">
+      amyrobson 
+      </div> 
+
+      <div class="time-container">
+        1 month ago 
+      </div>
+
+    </section>
+
+    <section class="grid-2">
+      <div></div>
+      <div class="userText-container">
+      Impressive! Though it seems the drag feature could be improved. But overall it looks incredible. You've nailed the design and the responsiveness at various breakpoints works really well.
+      </div>
+    </section>
+  </div>
   <!-- Comment #2 -->
-  5
-  <img src="./images/avatars/image-maxblagun.png" alt="profile" />
-  maxblagun 
-  2 weeks ago
-  Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!
+      
+  <div class="mainComment-container">
+    <section class="grid-1">
+      <div class="upVote-container">
+        5
+      </div>
+    
+      <div class="pic-container">
+        <img src="./images/avatars/image-maxblagun.png" alt="profile" />
+      </div>
+    
+
+      <div class="userName-container">
+        maxblagun  
+      </div> 
+
+      <div class="time-container">
+        2 weeks ago
+      </div>
+
+    </section>
+
+    <section class="grid-2">
+        <div></div>
+        <div class="userText-container">
+          Woah, your project looks awesome! How long have you been coding for? I'm still new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can learn React? Thanks!
+        </div>
+    </section>
+  </div>
+
+
+
+
+
+
+
+
+
 
   <!-- Comment #3 (Reply to comment #2) -->
-  4
-  <img src="./images/avatars/image-ramsesmiron.png" alt="profile" />
-  ramsesmiron 
-  1 week ago
-  @maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.
-
+  <div class="subComment-container">
+      4
+      <img src="./images/avatars/image-ramsesmiron.png" alt="profile" />
+      ramsesmiron 
+      1 week ago
+      @maxblagun If you're still new, I'd recommend focusing on the fundamentals of HTML, CSS, and JS before considering React. It's very tempting to jump ahead but lay a solid foundation first.
+    </div>
   <!-- Comment #4 (Reply to comment #2) -->
-  2
-  <img src="./images/avatars/image-juliusomo.png" alt="profile" />
-  juliusomo 
-  2 days ago
-  @ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.
-
+  <div class="subComment-container">
+    2
+    <img src="./images/avatars/image-juliusomo.png" alt="profile" />
+    juliusomo 
+    2 days ago
+    @ramsesmiron I couldn't agree more with this. Everything moves so fast and it always seems like everyone knows the newest library/framework. But the fundamentals are what stay constant.
+  </div>
 
   
   <div class="attribution">
